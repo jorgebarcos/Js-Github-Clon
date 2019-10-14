@@ -1,2 +1,6 @@
-# Js-Github-Clon
-A simple github client web applcation using OOP javascript and the Github API
+# Github Client
+
+- Una aplicación web simple del cliente github usando JavaScript OOP y la API Github
+
+### Preview 
+![GitHub App](https://github.com/jorgebarcos/Js-Github-Clon/blob/master/screencapture.png?raw=true)
