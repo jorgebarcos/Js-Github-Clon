@@ -27,6 +27,7 @@ class UI {
             </div>
         
         `;
+		this.clearMessage();
 	}
 
 	showMessage(message, cssClass) {
@@ -36,6 +37,12 @@ class UI {
 		const content = document.querySelector('.row');
 		const profile = document.querySelector('#profile');
 		content.insertBefore(div, profile);
+	}
+	clearMessage() {
+		const alertFound = document.querySelector('.alert');
+		if (alertFound) {
+			alertFound.remove();
+		}
 	}
 }
 
